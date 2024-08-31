@@ -1,0 +1,373 @@
+@font-face {
+    font-family: Paymon;
+    src: url('Paymon\ Regular\ Free.otf');
+}
+
+.paytone-one-regular {
+  font-family: "Paytone One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.paymon {
+  font-family: Paymon;
+}
+
+.donate-section {
+    width: 216px;
+    font-size: 22px;
+}
+
+.navbar-nav {
+    font-size: 22px;
+}
+
+.nav-link {
+  width: fit-content;
+
+}
+
+hr {
+  border: none;
+  opacity: 0.5;
+}
+
+.donate-btn {
+  left: 50%;
+  bottom: 10px;
+  aspect-ratio: 220 / 86;
+  transform: translate(-50%);
+  border-radius: 29px;
+  background-color: #DDFFFC;
+  font-size: 22px;
+  -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+}
+
+.donate-btn:hover {
+  left: 50%;
+  bottom: 10px;
+  aspect-ratio: 220 / 86;
+  transform: translate(-50%);
+  border-radius: 29px;
+  background-color: #DDFFFC;
+  font-size: 22px;
+  transition: mask-position 1s ease,-webkit-mask-position 2s ease;
+  -webkit-mask-position: 120%;
+  mask-position: 120%;
+  opacity: 1;
+}
+
+.star-1 {
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 25px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0.05, 0.83, 0.43, 0.96);
+  }
+  
+  .star-2 {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-3 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all 1s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-4 {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    width: 8px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all .8s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    width: 15px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all .6s cubic-bezier(0, 0.4, 0, 1.01);
+  }
+  
+  .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    width: 5px;
+    height: auto;
+    filter: drop-shadow(0 0 0 #fffdef);
+    z-index: -5;
+    opacity: 0;
+    transition: all .8s ease;
+  }
+
+button:hover .star-1 {
+    position: absolute;
+    top: -80%;
+    left: -30%;
+    width: 25px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+  
+  a:hover .star-2 {
+    position: absolute;
+    top: -25%;
+    left: -15%;
+    width: 15px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+  
+  a:hover .star-3 {
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    width: 5px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+  
+  a:hover .star-4 {
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    width: 8px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+  
+  a:hover .star-5 {
+    position: absolute;
+    top: 25%;
+    left: 100%;
+    width: 15px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+  
+  a:hover .star-6 {
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 5px;
+    height: auto;
+    opacity: 1;
+    filter: drop-shadow(0 0 10px #fffdef);
+    z-index: 2;
+  }
+
+  .fil0 {
+    fill: #ffec59
+  }
+
+
+body {
+    background-color: #FCFBF4;
+}
+
+.sec-2 {
+  background: #f9f1ff;
+  padding: 60px;
+}
+
+.box {
+  background-color: #F0D3E5;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Paymon;
+  height: 100%;
+  text-align: center;
+}
+
+.sec-3 {
+  padding: 20px 60px;
+
+}
+
+.title-container {
+  width: fit-content;
+}
+
+.title-star-1 {
+  position: absolute;
+  left: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title-star-2 {
+  position: absolute;
+  right: -30px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.title-star-3 {
+  position: absolute;
+  left: -45px;
+  bottom: 3px;
+  transform: translateY(-50%);
+}
+
+.title-star-4 {
+  position: absolute;
+  right: -45px;
+  bottom: 3px;
+  transform: translateY(-50%);
+}
+
+.picture {
+  height: 200px;
+}
+
+.role {
+  width: fit-content;
+}
+
+.role::before {
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -15%;
+  background-color:#F0D3E5;
+  width: 10%;
+}
+
+.role::after {
+  content: '';
+  display: block;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -15%;
+  background-color:#F0D3E5;
+  width: 10%;
+}
+
+.sec-4 {
+  padding: 20px 60px;
+  background-color: #E2EEFF;
+  background-image: url(images/BG\ Image.png);
+}
+
+li {
+  text-align: center;
+  list-style-image: url(Small\ star.png);
+}
+
+ul {
+  list-style-position: inside;
+  padding: 0;
+  text-align: center;
+}
+
+.sec-5 {
+  padding: 20px 60px;
+}
+
+.contact-form {
+  background: #F9F1FF;
+  border-radius: 23px;
+}
+
+input[type='text'] {
+  background-color: #F0D3E5;
+  border: none;
+  border-radius: 7px;
+  font-family:"Paytone One", sans-serif;
+  padding: 0px 10px;
+}
+
+input[type='email'] {
+  background-color: #F0D3E5;
+  border: none;
+  border-radius: 7px;
+  font-family:"Paytone One", sans-serif;
+  padding: 0px 10px;
+}
+
+.subject-box {
+  height: 200px;
+}
+
+textarea {
+  background-color: #F0D3E5;
+  border: none;
+  border-radius: 7px;
+  font-family:"Paytone One", sans-serif;
+  padding: 0px 10px;
+}
+
+.submit-button {
+  border-radius: 15px;
+  border: none;
+  background: transparent;
+  transition: 0.2s;
+}
+
+.submit-button:hover {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1),
+  -5px -5px 5px #eefffe;
+}
+
+.submit-button:active {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.1) inset,
+  -5px -5px 5px #eefffe inset;
+}
